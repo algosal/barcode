@@ -3,6 +3,7 @@
     "name": "barcode",
     "slug": "barcode",
     "version": "1.0.0",
+    "entryPoint": "./App.js",
     "orientation": "portrait",
     "plugins": [
       [
@@ -19,6 +20,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "ios": {
     "ios": {
       "supportsTablet": true
     },
